@@ -3,6 +3,7 @@
   "version": "1.0",
   "buildTag": "latest",
   "env": null,
+  "dockerfile": "./Dockerfile",
   "defaultRunOptions": {
     "build": "latest",
     "memoryMbytes": 1024
