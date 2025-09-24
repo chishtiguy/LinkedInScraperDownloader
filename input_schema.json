@@ -1,0 +1,15 @@
+{
+  "title": "Web Content Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "url": {
+      "title": "Target URL",
+      "type": "string",
+      "description": "The URL of the web page to scrape for content and media files",
+      "prefill": "https://example.com",
+      "editor": "textfield"
+    }
+  },
+  "required": ["url"]
+}
